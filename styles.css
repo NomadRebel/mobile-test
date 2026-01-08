@@ -36,21 +36,21 @@
 
 @media screen and (max-width: 600px){
   body{
-    font-size: 25px;
+    font-size: 20px;
   }
   #navbar{
     position: fixed;
     top: 0px;
     left: 0px;
-    right: 0px;
-    width: 100%;
-    
-    height: 10vw;
+    bottom: 0px;
+    width: 30vw;
+    flex-wrap: wrap;
+    height: 100%;
   }
   #main-doc{
   position: relative;
-  
-  top: 10vw;
+  left: 38vw;
+  top: 0px;
   padding: 10px;
   width: 50vw;
   min-width: 30vw;
