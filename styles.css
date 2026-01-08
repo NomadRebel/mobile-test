@@ -12,7 +12,7 @@
 
 #main-doc{
   position: relative;
-  left: 250px;
+  left: 270px;
   
   top: 0px;
   padding: 10px;
@@ -25,23 +25,31 @@
   text-decoration: none;
   color: indigo;
 }
-
+.code-block{
+  display: flex;
+  width: fit-content;
+  background-color: lightcyan;
+  border: 2px solid lightgray;
+  padding: 4px;
+  border-radius: 5px;
+}
 
 @media screen and (max-width: 600px){
+  body{
+    font-size: 20px;
+  }
   #navbar{
-    
     position: fixed;
     top: 0px;
     left: 0px;
     bottom: 0px;
-    width: 35vw;
+    width: 30vw;
     flex-wrap: wrap;
-    min-width: 180px;
     height: 100%;
   }
   #main-doc{
   position: relative;
-  left: 35vw;
+  left: 36vw;
   top: 0px;
   padding: 10px;
   width: 50vw;
