@@ -1,4 +1,6 @@
-
+*{
+  box-sizing: border-box;
+}
 #navbar{
   min-width: 20vw;
   position: fixed;
@@ -35,6 +37,7 @@
 }
 
 @media screen and (max-width: 600px){
+ 
   body{
     font-size: 16px;
     padding: 10px;  
@@ -62,12 +65,11 @@
   }
   #main-doc{
   position: relative;
-  left: 0px;
-  top: 15vw;
-  width: 150%;
-  right: 0px;
+  width: 100%;
+  margin-top: 15vw;
+ left: 0px;
+ right: 0px;
   
-  margin: auto;
 }
 .code-block{
   display: flex;
