@@ -49,11 +49,19 @@
   }
   #main-doc{
   position: relative;
-  left: 36vw;
+  left: 38vw;
   top: 0px;
   padding: 10px;
   width: 50vw;
   min-width: 30vw;
+}
+.code-block{
+  display: flex;
+  width: fit-content;
+  background-color: lightcyan;
+  border: 2px solid lightgray;
+  padding: 4px;
+  border-radius: 5px;
 }
 h1{
   font-size: 2rem;
