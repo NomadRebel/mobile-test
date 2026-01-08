@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <main id="main-doc">
+      <section class="main-section" id="python_quick_start">
+        <header>
+          <h2>Python Quick Start</h2>
+        </header>
+          <p>Python is a high-level, interpreted programming language known for its readability and versatility, making it a popular choice for web development, data analysis, and automation.</p>
+          <code>print("Hello, World!")</code>
+          <p>Installing Python is generally easy, and nowadays many Linux and UNIX distribution include a recent Python. Even some Windows computers now come with Python already installed. If you do need to install Python and aren't confident about the task you can find a few notes on the wiki page, but installation is uremarkable on most platforms.</p>
+          <ul>
+            <li>Download the installer from the official Python website.</li>
+            <li>Run the setup file and ensure you check the box to add Python to your PATH.</li>
+          </ul>
+      </section>
+      
+      <section class="main-section" id="typescript_basics">
+        <header>
+          <h2>TypeScript Basics</h2>
+        </header>
+          <p>TypeScript is a strongly typed superset of JavaScript that compiles to plain JavaScript, enabling developers to catch errors early during the development process. It is widely used in modern web development to build scalable and maintainable applications.</p>
+          <code>const greeting: string="Hello, World!";<br>
+            console.log(greeting);
+          </code>
+          <p>By adding static types, interfaces, and other features, TypeScript enhances the developer experience with better tooling and autocompletion. This makes it particularly effective for large teams working on complex codebases where consistency is crucial.</p>
+          <ul>
+            <li>Install the TypeScript compiler globally via your terminal.</li>
+            <li>Run the compile command to transform your code into JavaScript.</li>
+          </ul>
+      </section>
+      
+      <section class="main-section" id="rust_fundamentals">
+        <header>
+          <h2>Rust Fundamentals</h2>
+        </header>
+          <p>Rust is a systems programmming language focused on safety and performance, specifically desingned to prevent memory related errors without relying on a garbage collector. It has gained immense popularity for its ability to power perfomance-critical services, embedded devices, and command line tools.</p>
+          <code>
+            fn main(){<br>
+              println!("Hello, World!");<br>
+            }
+          </code>
+          <p>By enforcing strictl ownership rules at compile time, Rust eliminates common bugs like null pointer derefrencing and data races. This empowers developers to write reliable, concurrent code that runs incredible fast, rivaling languages like C and C++.</p>
+          <ul>
+            <li>Install Rust using the rustup toolchain installer from the official website.</li>
+            <li>Use the cargo run command in your terminal to compile and execute your project.</li>
+          </ul>
+      </section>
+      
+      <section  class="main-section" id="go_essentials">
+        <header>
+          <h2>Go Essentials</h2>
+        </header>
+          <p>Go is an open-source programming language supported by Google, known for its simplicity and efficiency in building reliable and scalable software. It is frequently used for cloud infrastructure, microservices, and networking tools due to its lightweight nature and robust standard library.</p>
+          <code>package main<br>
+          import "fmt"<br>
+
+          func main(){<br>
+            fmt.Println("Hello, World!")<br>
+          }
+          </code>
+          <p>The language features built-in concurrency support through gorotines, allowing programs to handle mulitple tasks simultaneously with ease, Its strict syntax and incredibly fast compilation times make it a favorite for developers who prioritize performance without sacrificing productivity.</p>
+          <ul>
+            <li>Download and install the distribution for your specific operating system.</li>
+            <li>Build and execute your source code using the standard go run command.</li>
+          </ul>
+      </section>
+      
+      <section  class="main-section" id="c++_overview">
+        <header>
+          <h2>C++ Overview</h2>
+        </header>
+          <p>C++ is a powerful, high-performance programming language that serves as the foundation for many operating systems, game engines, and resource-intensive applications. It extends the C language with object-oriented features, giving developers deep control over systerm resources and memory.</p>
+          <code>
+            int main() { <br>
+          std::cout&lt;&lt;"Hello, World!"&lt;&lt;std::endl; <br>
+          return 0; <br>
+          }
+
+          </code>
+          <p>While it has a steeper learning curve than some modern languages, C++ offers unparalleled speed and efficiency, making it indispensable for software where performance is critical. Its extensive standard library and backward compatibility ensure it remains a dominant force in the industry.</p>
+          <ul>
+            <li>Install a compiler like GCC or use an IDE like Visual Studio to get started.</li>
+            <li>Compile your source file into an executable binary before running it.</li>
+          </ul>
+      </section>
+      
+    </main>
+     <nav id="navbar">
+      <header><h1>Brief Introduction</h1></header>
+      <p><a class="nav-link" href="#python_quick_start">Python Quick Start</a></p>
+      <p><a class="nav-link" href="#typescript_basics">TypeScript Basics</a></p>
+      <p><a class="nav-link" href="#rust_fundamentals">Rust Fundamentals</a></p>
+      <p><a class="nav-link" href="#go_essentials">Go Essentials</a></p>
+      <p><a class="nav-link" href="#c++_overview">C++ Overview</a></p>
+    </nav>
+  </body>
+</html>
