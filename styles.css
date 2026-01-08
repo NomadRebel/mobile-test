@@ -47,7 +47,7 @@
     right: 0px;
     width: 100%;
     flex-wrap: wrap;
-    height: 10vw;
+    height: 15vw;
   }
   #navbar header{
     display: block;
@@ -61,7 +61,7 @@
   #main-doc{
   position: relative;
   left: 0px;
-  top: 10vw;
+  top: 15vw;
   width: 100vw;
   right: 0px;
  
@@ -82,7 +82,7 @@
 }
 h1{
   font-size: 15px;
-  margin: 5px;
+  margin:0;
 }
 
 }
