@@ -37,6 +37,7 @@
 @media screen and (max-width: 600px){
   body{
     font-size: 16px;
+    padding: 10px;  
   }
   #navbar{
     display: flex;
@@ -47,7 +48,8 @@
     right: 0px;
     width: 100%;
     flex-wrap: wrap;
-    height: 15vw;
+    height: fit-content;
+    background-color: rgb(248, 185, 103);
   }
   #navbar header{
     display: block;
@@ -62,9 +64,10 @@
   position: relative;
   left: 0px;
   top: 15vw;
-  width: 100vw;
+  width: 150%;
   right: 0px;
- 
+  
+  margin: auto;
 }
 .code-block{
   display: flex;
